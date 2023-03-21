@@ -48,7 +48,7 @@ function App() {
           <h1 className='text-blue font-bold'>ABOUT ME</h1>
           <h2 className='text-4xl font-bold font-h1'>A dedicated Fullstack Web Developer based in Paris</h2>
           <div>
-            <p className='text-xl w-full font-h1 text-justify text-light_grey'>Hi, I'm DEVOVE Zackary, a 21-year-old Full Stack Web Developer based in Paris. I'm proficient in the skills listed below and I am actually student in School 42 Paris. I hold a Bachelor's degree in Economics and Management, and have studied abroad at Seoul National University. I'm fluent in English and passionate about Coding, MMA, Gym, YouTube, Business, and Economics. I thrive in collaborative and challenging environments and always seek to create elegant and scalable solutions. Let's work together!</p>
+            <p className='text-xl w-full font-h1 text-justify text-light_grey'>Hi, I'm DEVOVE Zackary, a 21-year-old Full Stack Web Developer based in Paris. I'm proficient in the skills listed below and I am actually student in School 42 Paris. I hold a Bachelor's degree in Economics and Management, and have studied abroad at Seoul National University. I'm fluent in French and English and I'm passionate about Coding, MMA, Gym, YouTube, Business, and Economics. I thrive in collaborative and challenging environments and always seek to create elegant and scalable solutions. Let's work together!</p>
           </div>
         </div>
       </div>
