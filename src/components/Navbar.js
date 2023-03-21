@@ -18,7 +18,7 @@ function Navbar() {
       open ?
       
       <div className='w-screen h-screen bg-white absolute top-0 left-0'>
-        <ul className='flex flex-col gap-5 absolute left-[50%] top-[50vh] translate-y-[-50%] translate-x-[-50%]'>
+        <ul className='flex flex-col gap-5 absolute left-[50%] top-[50vh] translate-y-[-50%] translate-x-[-50%] items-center'>
             <li className='cursor-pointer text-xl font-bold text-dark_grey hover:text-blue transition duration-300 '
               onClick={() => setOpen(false)}>
               <a href='#home'>Home</a>
