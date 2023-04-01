@@ -27,7 +27,7 @@ I'm proficient in the following technologies:
 <li>Node.js</li>
 <li>Express</li>
 <li>MongoDB</li>
-<li>PostgrEsql</li>
+<li>PostgreSQL</li>
 <li>RESTful API</li>
 <li>GraphQL API</li>
 <li>Jest</li>
