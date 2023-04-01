@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+<h1>Zackary Devove's Portfolio</h1>
+Welcome to my portfolio repository! You can visit the live site <a href="https://www.zackarydevove.com/">here</a>.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I'm a Full Stack Web Developer with experience in building web applications using the MERN and PERN stacks (MongoDB/PostgreSQL, Express, React, and Node.js) as well as using GraphQL, Git, Docker and Jest. This portfolio showcase my skills, projects, and contact information.
 
-## Available Scripts
+<h1> Projects </h1>
+<h2> 1. E-commerce App </h2>
+A full-featured e-commerce web application built using the MERN stack. This project demonstrates my ability to create a complete, scalable, and secure online store with user authentication, product management, shopping cart functionality, and payment processing.
+You can try the demo <a href="https://ecom-app-tan.vercel.app/">here</a>
 
-In the project directory, you can run:
+<h2> 2. Twitter Clone </h2>
+A full stack web application that mimics the core functionality of Twitter. This project highlights my skills in building real-time, social media applications using the MERN stack, complete with user authentication, tweet creation, retweeting, liking, a feed of tweets and instant messaging using socket.io.
+You can try the demo <a href="https://social-media-app-ruby.vercel.app/home">here</a>
 
-### `npm start`
+<h2> 3. Reservation App </h2>
+Coming soon.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h1> Skills </h1>
+I'm proficient in the following technologies:
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>React</li>
+<li>Redux</li>
+<li>Tailwind</li>
+<li>Node.js</li>
+<li>Express</li>
+<li>MongoDB</li>
+<li>PostgrEsql</li>
+<li>RESTful API</li>
+<li>GraphQL API</li>
+<li>Jest</li>
+<li>Git</li>
+<li>Docker</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h1> Contact </h1>
+If you'd like to get in touch with me or have any questions about my work, please feel free to contact me on my socials (<a href="https://twitter.com/ZackaryDevove">Twitter</a> or <a href="https://www.linkedin.com/in/zackarydevove/">LinkedIn</a> or by mail (zackary.devove@hotmail.com)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you find any issues or have suggestions, don't hesitate to open an issue or submit a pull request.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my portfolio repository!
