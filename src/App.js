@@ -32,7 +32,7 @@ function App() {
             </div>
 
             {/* Profile Picture */}
-            <div className='sm:w-80 sm:h-80 lg:w-96 lg:h-96 w-[70vw] h-[70vw] shadow-2xl rounded-full overflow-hidden relative bg-profile bg-[length:500px] max-[210px]:bg-[length:170px] max-[280px]:bg-[length:250px] max-[355px]:bg-[length:300px] max-[450px]:bg-[length:350px] sm:bg-[length:400px] bg-center bg-no-repeat'/>
+            <div className='sm:w-80 sm:h-80 lg:w-96 lg:h-96 w-[70vw] h-[70vw] shadow-2xl rounded-full overflow-hidden relative bg-profile bg-[length:500px] max-[210px]:bg-[length:170px] max-[280px]:bg-[length:250px] max-[355px]:bg-[length:300px] max-[450px]:bg-[length:350px] sm:bg-[length:480px] bg-center bg-no-repeat'/>
               {/* <div className='w-[1200px] h-[1200px] bg-profile bg-top bg-no-repeat absolute max-[350px]:-right-[460px] max-[350px]:-bottom-[560px] max-[455px]:-right-[425px] max-[455px]:-bottom-[520px] max-[524px]:-right-[395px] max-[524px]:-bottom-[450px] sm:-right-[400px] sm:-bottom-[470px] lg:-right-[365px] lg:-bottom-[420px] scale-50' /> */}
           </div>
 
