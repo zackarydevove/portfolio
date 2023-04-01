@@ -8,7 +8,9 @@ function Navbar() {
 
   return (
   <div className="fixed top-0 left-0 p-5 w-full h-auto bg-white shadow-md flex justify-between items-center px-50px py-25px sm:px-40px text-lg z-10">
-    <h3 className='z-10 cursor-pointer text-xl font-bold text-dark_grey'>Zack.dev</h3>
+    <div>
+      
+    </div>
     {
       open ?
       <RxCross1 size={'1.3em'} className='sm:hidden z-10' onClick={() => setOpen(false)}/>
