@@ -153,15 +153,18 @@ function App() {
             {/* Text */}
             <div className='lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center  gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>ZACKTECH</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>An E-commerce web app built with the MERN stack. Users can easily create an account, browse the shop and securely make purchases through Stripe payments.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>An E-commerce web app built with React, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments.</p>
               {/* Tech */}
-              <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap justify-center items-center'>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>MERN</div>
+              <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>MongoDB</div>
               </div>
               {/* Code and Demo */}
               <div className='flex min-[390px]:gap-5 max-[390px]:flex-wrap justify-center items-center p-3'>
-                <a href="https://github.com/zackarydevove/ecomApp" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+                <a href="https://github.com/zackarydevove/zacktech" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
                   <p>Code</p>
                   <AiFillGithub size={'1.7em'}/>
                 </a>
@@ -182,17 +185,20 @@ function App() {
             {/* Text */}
             <div className='lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>FULLSTACK TWITTER CLONE</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Twitter clone built with the MERN Stack and Tailwind. User can create, reply, share and like posts. Connect with friends through instant messaging chat using Socket.io and more all in one place.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Twitter clone built with React, Tailwind, Node, Express, MongoDB and Socket.io. User can create, reply, share and like posts. Connect with friends through instant messaging chat using Socket.io.</p>
               {/* Tech */}
-              <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap justify-center items-center'>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] '>MERN</div>
+              <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>MongoDB</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Socket.io</div>
               </div>
               {/* Code and Demo */}
               <div className='flex min-[390px]:gap-5 max-[390px]:flex-wrap justify-center items-center p-3'>
                 <div className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
-                  <a href="https://github.com/zackarydevove/socialMediaApp" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+                  <a href="https://github.com/zackarydevove/twitterClone" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
                     <p>Code</p>
                     <AiFillGithub size={'1.7em'}/>
                   </a>
@@ -217,29 +223,39 @@ function App() {
           {/* Row */}
           <div className='lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
             {/* Image */}
-            <a href="#" target="_blank" rel="noreferrer"  
-              className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-w-[95vw]  bg-black bg-cover bg-center  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex justify-center items-center hover:scale-105 transition'>
-              <h1 className='text-white text-center text-3xl font-bold'>SOON</h1>
+            <a href="https://github.com/zackarydevove/lamontagne" target="_blank" rel="noreferrer"  
+              className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-w-[95vw]  bg-project3 bg-cover  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex justify-center items-center hover:scale-105 transition relative'>
+                <div className='absolute left-0 top-0 w-full h-full bg-black bg-opacity-20 rounded-2xl'/>
+              <h1 className='text-white text-center text-3xl font-bold z-20'>SOON</h1>
             </a>
             {/* Text */}
             <div className='lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
-              <h3 className='font-bold'>RESERVATION APP</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Reservation App built with the PERN Stack, Redux, Tailwind and GraphQL Search for available rooms, book them seamlessly and even list your own rooms for rent.</p>
+              <h3 className='font-bold'>LAMONTAGNE</h3>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Reservation App built with React, Tailwind, Redux, Node, Express, Postgre, Sequelize and GraphQL. Search for available houses, buy or rent them seamlessly and even list your own house to sell or rent.</p>
               {/* Tech */}
-              <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap justify-center items-center'>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>PERN</div>
+              <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Redux</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Postgre</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Sequelize</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>GraphQL</div>
               </div>
               {/* Code and Demo */}
               <div className='flex min-[390px]:gap-5 max-[390px]:flex-wrap justify-center items-center p-3'>
                 <div className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
-                  <p>Code</p>
-                  <AiFillGithub size={'1.7em'}/>
+                  <a href="https://github.com/zackarydevove/lamontagne" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+                    <p>Code</p>
+                    <AiFillGithub size={'1.7em'}/>
+                  </a>
                 </div>
                 <div className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
-                  <p>Live Demo</p>
-                  <FiExternalLink size={'1.7em'}/>
+                  <a href="https://github.com/zackarydevove/lamontagne" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+                    <p>Live Demo</p>
+                    <FiExternalLink size={'1.7em'}/>
+                  </a>
                 </div>
               </div>
             </div>
@@ -254,7 +270,7 @@ function App() {
 
         <div className='w-[880px] max-w-full h-auto flex flex-col max-lg:justify-center max-lg:items-center gap-5'>
           <h1 className='font-bold text-blue'>CONTACT ME</h1>
-          <h2 className='text-4xl font-bold max-sm:text-center'>Don't be shy! Hit me up! 👇 </h2>
+          <h2 className='text-4xl font-bold max-sm:text-center'>Let's connect and collaborate! 👇 </h2>
         </div>
 
         <div className='w-[880px] max-w-full flex max-md:flex-col max-lg:justify-center max-lg:items-center gap-10'>

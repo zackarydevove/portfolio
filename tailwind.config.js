@@ -11,6 +11,7 @@ module.exports = {
         'emoji': 'url("./images/emoji.png")',
         'project1': 'url("./images/project1.png")',
         'project2': 'url("./images/project2.png")',
+        'project3': 'url("./images/project3.png")',
       }
     },
     colors: {
