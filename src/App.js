@@ -149,10 +149,10 @@ function App() {
         {/* Project 1 */}
         <div className='p-3'>
           {/* Row */}
-          <div className='max-sm:pt-3 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
+          <div className='max-sm:pt-2 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
             {/* Image */}
             <a href="https://ecom-app-tan.vercel.app/" target="_blank" rel="noreferrer" 
-              className='lg:w-[47%] lg:h-[90%] sm:w-[530px] h-[400px] max-sm:h-[50vh] w-[95%]  bg-project1 bg-cover  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl hover:scale-105 transition'/>
+              className='lg:w-[47%] lg:h-[90%] sm:w-[530px] h-[400px] max-sm:h-[50vh] w-[95%]  bg-project1 bg-cover  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl lg:hover:scale-105 transition'/>
             {/* Text */}
             <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center  gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>ZACKTECH</h3>
@@ -183,7 +183,7 @@ function App() {
         {/* Project 2 */}
         <div>
           {/* Row */}
-          <div className='max-sm:pt-3 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col-reverse justify-evenly items-center'>
+          <div className='max-sm:pt-2 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col-reverse justify-evenly items-center'>
 
             {/* Text */}
             <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
@@ -216,7 +216,7 @@ function App() {
             </div>
             {/* Image */}
             <a href="https://social-media-app-ruby.vercel.app/" target="_blank" rel="noreferrer"  
-              className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-lg:max-w-[95vw]  bg-project2 bg-cover bg-center  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl hover:scale-105 transition'/>
+              className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-lg:max-w-[95vw]  bg-project2 bg-cover bg-center  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl lg:hover:scale-105 transition'/>
           </div>
         </div>
 
@@ -224,10 +224,10 @@ function App() {
         {/* Project 3 */}
         <div>
           {/* Row */}
-          <div className='max-sm:pt-3 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
+          <div className='max-sm:pt-2 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
             {/* Image */}
             <a href="https://github.com/zackarydevove/lamontagne" target="_blank" rel="noreferrer"  
-              className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-w-[95vw]  bg-project3 bg-cover  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex justify-center items-center hover:scale-105 transition relative'>
+              className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-w-[95vw]  bg-project3 bg-cover  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex justify-center items-center lg:hover:scale-105 transition relative'>
                 <div className='absolute left-0 top-0 w-full h-full bg-black bg-opacity-20 rounded-2xl'/>
               <h1 className='text-white text-center text-3xl font-bold z-20'>SOON</h1>
             </a>
