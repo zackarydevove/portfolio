@@ -1,7 +1,7 @@
 <h1>Zackary Devove's Portfolio</h1>
 Welcome to my portfolio repository! You can visit the live site <a href="https://www.zackarydevove.com/">here</a>.
 
-I'm a Full Stack Web Developer with experience in building web applications using the MERN and PERN stacks (MongoDB/PostgreSQL, Express, React, and Node.js) as well as using GraphQL, Git, Docker and Jest. This portfolio showcase my skills, projects, and contact information.
+I'm a Full Stack Web Developer with experience in building web applications using the MERN and PERN stacks (MongoDB/PostgreSQL, Express, React, and Node.js) with typescript. I'm proficient in building REST API, and with Git, Docker Jest and react-testing-library. This portfolio showcase my skills, projects, and contact information.
 
 <h1> Projects </h1>
 <h2> 1. E-commerce App </h2>
@@ -21,18 +21,20 @@ I'm proficient in the following technologies:
 <li>HTML5</li>
 <li>CSS3</li>
 <li>JavaScript</li>
+<li>Typescript</li>
 <li>React</li>
 <li>Redux</li>
 <li>Tailwind</li>
 <li>Node.js</li>
 <li>Express</li>
+<li>RESTful API</li>
 <li>MongoDB</li>
 <li>PostgreSQL</li>
-<li>RESTful API</li>
-<li>GraphQL API</li>
-<li>Jest</li>
+<li>Sequelize</li>
 <li>Git</li>
 <li>Docker</li>
+<li>Jest</li>
+<li>react-testing-library</li>
 </ul>
 
 <h1> Contact </h1>
