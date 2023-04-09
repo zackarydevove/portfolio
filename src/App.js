@@ -77,12 +77,13 @@ function App() {
             <div className='flex flex-col justify-center items-center'>
               <hr className='w-[90vw] sm:w-[578px] lg:w-[100%] m-5'/>
               <ul className='flex flex-col gap-3 items-center'>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Tailwind</li>
+                <li className='text-center'>HTML</li>
+                <li className='text-center'>CSS</li>
+                <li className='text-center'>Javascript</li>
+                <li className='text-center'>Typescript</li>
+                <li className='text-center'>React</li>
+                <li className='text-center'>Redux</li>
+                <li className='text-center'>Tailwind</li>
               </ul>
             </div>
           </div>
@@ -98,12 +99,13 @@ function App() {
             <div className='flex flex-col justify-center items-center'>
               <hr className='w-[90vw] sm:w-[578px] lg:w-[100%] m-5'/>
               <ul className='flex flex-col gap-3 items-center'>
-                <li>Node</li>
-                <li>Express</li>
-                <li>MongoDB</li>
-                <li>PostgreSQL</li>
-                <li>REST API</li>
-                <li>GraphQL</li>
+                <li className='text-center'>Node</li>
+                <li className='text-center'>Express</li>
+                <li className='text-center'>REST API</li>
+                <li className='text-center'>MongoDB</li>
+                <li className='text-center'>PostgreSQL</li>
+                <li className='text-center'>Sequelize</li>
+                <li className='text-center'>Socket.io</li>
               </ul>
             </div>
           </div>
@@ -119,12 +121,13 @@ function App() {
             <div className='flex flex-col justify-center items-center'>
               <hr className='w-[90vw] sm:w-[578px] lg:w-[100%] m-5'/>
               <ul className='flex flex-col gap-3 items-center'>
-                <li>Authentication</li>
-                <li>Payments</li>
-                <li>Socket</li>
-                <li>Git</li>
-                <li>Docker</li>
-                <li>Jest</li>
+                <li className='text-center'>Git</li>
+                <li className='text-center'>Gitlab</li>
+                <li className='text-center'>Docker</li>
+                <li className='text-center'>Jest</li>
+                <li className='text-center'>react-testing-library</li>
+                <li className='text-center'>Authentication</li>
+                <li className='text-center'>Stripe</li>
               </ul>
             </div>
           </div>
@@ -146,12 +149,12 @@ function App() {
         {/* Project 1 */}
         <div className='p-3'>
           {/* Row */}
-          <div className='lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
+          <div className='max-sm:pt-3 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
             {/* Image */}
             <a href="https://ecom-app-tan.vercel.app/" target="_blank" rel="noreferrer" 
               className='lg:w-[47%] lg:h-[90%] sm:w-[530px] h-[400px] max-sm:h-[50vh] w-[95%]  bg-project1 bg-cover  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl hover:scale-105 transition'/>
             {/* Text */}
-            <div className='lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center  gap-5 lg:gap-2'>
+            <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center  gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>ZACKTECH</h3>
               <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>An E-commerce web app built with React, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments.</p>
               {/* Tech */}
@@ -180,10 +183,10 @@ function App() {
         {/* Project 2 */}
         <div>
           {/* Row */}
-          <div className='lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col-reverse justify-evenly items-center'>
+          <div className='max-sm:pt-3 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col-reverse justify-evenly items-center'>
 
             {/* Text */}
-            <div className='lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
+            <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>FULLSTACK TWITTER CLONE</h3>
               <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Twitter clone built with React, Tailwind, Node, Express, MongoDB and Socket.io. User can create, reply, share and like posts. Connect with friends through instant messaging chat using Socket.io.</p>
               {/* Tech */}
@@ -221,7 +224,7 @@ function App() {
         {/* Project 3 */}
         <div>
           {/* Row */}
-          <div className='lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
+          <div className='max-sm:pt-3 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col justify-evenly items-center'>
             {/* Image */}
             <a href="https://github.com/zackarydevove/lamontagne" target="_blank" rel="noreferrer"  
               className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-w-[95vw]  bg-project3 bg-cover  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex justify-center items-center hover:scale-105 transition relative'>
@@ -229,19 +232,19 @@ function App() {
               <h1 className='text-white text-center text-3xl font-bold z-20'>SOON</h1>
             </a>
             {/* Text */}
-            <div className='lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
+            <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
               <h3 className='font-bold'>LAMONTAGNE</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Reservation App built with React, Tailwind, Redux, Node, Express, Postgre, Sequelize and GraphQL. Search for available houses, buy or rent them seamlessly and even list your own house to sell or rent.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Reservation App built with React, Typescript, Tailwind, Redux, Node, Express, Postgre and Sequelize. Search for available houses, buy or rent them seamlessly and even list your own house to sell or rent.</p>
               {/* Tech */}
               <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Typescript</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Redux</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Postgre</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Sequelize</div>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>GraphQL</div>
               </div>
               {/* Code and Demo */}
               <div className='flex min-[390px]:gap-5 max-[390px]:flex-wrap justify-center items-center p-3'>
