@@ -104,7 +104,7 @@ function App() {
                 <li className='text-center'>REST API</li>
                 <li className='text-center'>MongoDB</li>
                 <li className='text-center'>PostgreSQL</li>
-                <li className='text-center'>Sequelize</li>
+                <li className='text-center'>Prisma</li>
                 <li className='text-center'>Socket.io</li>
               </ul>
             </div>
@@ -234,7 +234,7 @@ function App() {
             {/* Text */}
             <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
               <h3 className='font-bold'>LAMONTAGNE</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Reservation App built with React, Typescript, Tailwind, Redux, Node, Express, Postgre and Sequelize. Search for available houses, buy or rent them seamlessly and even list your own house to sell or rent.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Reservation App built with React, Typescript, Tailwind, Redux, Node, Express, Prisma. Search for available houses, buy or rent them seamlessly and even list your own house to sell or rent.</p>
               {/* Tech */}
               <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
@@ -243,8 +243,7 @@ function App() {
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Redux</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Postgre</div>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Sequelize</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Prisma</div>
               </div>
               {/* Code and Demo */}
               <div className='flex min-[390px]:gap-5 max-[390px]:flex-wrap justify-center items-center p-3'>
