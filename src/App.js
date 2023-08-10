@@ -44,20 +44,20 @@ function App() {
       </div>
 
       {/* Page 2 */}
-      <div id='about' className='scroll-smooth lg:min-h-[63vh] bg-white p-10 max-lg:py-12 flex max-lg:flex-col justify-center items-center gap-24'>
+      <div id='about' className='scroll-smooth  bg-white p-10 py-24 max-lg:py-12 flex max-lg:flex-col justify-center items-center gap-24'>
         <div className='max-lg:hidden w-[430px] h-96 bg-desk bg-cover bg-center bg-no-repeat rounded-3xl'/>
 
-        <div className='sm:w-[600px] sm:h-96 lg:pr-5 flex flex-col items-start justify-between max-lg:items-center max-lg:justify-center gap-5'>
+        <div className='sm:w-[650px] sm:h-96 lg:pr-5 flex flex-col items-start justify-between max-lg:items-center max-lg:justify-center gap-5'>
           <h1 className='text-blue font-bold'>ABOUT ME</h1>
-          <h2 className='text-4xl font-bold font-h1 max-lg:text-center'>A dedicated Fullstack Web Developer based in Paris</h2>
+          <h2 className='text-2xl font-bold font-h1 max-lg:text-center'>A Passionate Fullstack Web Developer, based in Paris</h2>
           <div>
-            <p className='text-xl w-full font-h1 text-justify text-light_grey max-lg:text-center'>Hi, I'm DEVOVE Zackary, a 21-year-old Full Stack Web Developer based in Paris. I'm proficient in the skills listed below and I am actually student in School 42 Paris. I hold a Bachelor's degree in Economics and Management, and have studied abroad at Seoul National University. I'm fluent in both French and English and I'm passionate about Coding, MMA, Gym, YouTube, Business, and Economics. I thrive in collaborative and challenging environments and always seek to create elegant and scalable solutions. Let's work together!</p>
+            <p className='text-xl w-full font-h1 text-justify text-light_grey max-lg:text-center'>Hey there! I'm Zackary DEVOVE, a 21-year-old Fullstack Web Developer rooted right in the heart of Paris. I'm proficient in the skills listed below and am currently a student at School 42 Paris. With a Bachelor's degree in Economics and Management under my belt, and a transformative stint at Seoul National University, I'm comfortably bilingual in French and English. Beyond the code, I'm deeply immersed in the ever-evolving world of crypto and DeFi. Otherwise, you’ll probably find me at the gym or on an MMA ring. My drive? Crafting a vision into an elegant and scalable digital solution. Ready to collaborate?</p>
           </div>
         </div>
       </div>
 
       {/* Page 3 */}
-      <div id='skills' className='scroll-smooth w-screen lg:h-[75vh] bg-grey_bg p-20 flex flex-col items-center gap-16'>
+      <div id='skills' className='scroll-smooth w-screen bg-grey_bg p-16 flex flex-col items-center gap-16'>
         {/* Title */}
         <div className='w-full flex justify-center'>
           <h1 className='text-4xl font-bold text-center'>My Skills</h1>
@@ -82,8 +82,9 @@ function App() {
                 <li className='text-center'>Javascript</li>
                 <li className='text-center'>Typescript</li>
                 <li className='text-center'>React</li>
-                <li className='text-center'>Redux</li>
+                <li className='text-center'>Next</li>
                 <li className='text-center'>Tailwind</li>
+                <li className='text-center'>Redux</li>
               </ul>
             </div>
           </div>
@@ -101,6 +102,7 @@ function App() {
               <ul className='flex flex-col gap-3 items-center'>
                 <li className='text-center'>Node</li>
                 <li className='text-center'>Express</li>
+                <li className='text-center'>Nest</li>
                 <li className='text-center'>REST API</li>
                 <li className='text-center'>MongoDB</li>
                 <li className='text-center'>PostgreSQL</li>
@@ -122,12 +124,13 @@ function App() {
               <hr className='w-[90vw] sm:w-[578px] lg:w-[100%] m-5'/>
               <ul className='flex flex-col gap-3 items-center'>
                 <li className='text-center'>Git</li>
-                <li className='text-center'>Gitlab</li>
                 <li className='text-center'>Docker</li>
+                <li className='text-center'>Azure</li>
                 <li className='text-center'>Jest</li>
-                <li className='text-center'>react-testing-library</li>
                 <li className='text-center'>Authentication</li>
                 <li className='text-center'>Stripe</li>
+                <li className='text-center'>Vercel</li>
+                <li className='text-center'>C/C++</li>
               </ul>
             </div>
           </div>
@@ -145,7 +148,53 @@ function App() {
 
         {/* Projects */}
         <div className='flex flex-col items-center gap-10'>
-          
+
+		  {/* Project 4 */}
+		  <div>
+			{/* Row */}
+			<div className='max-sm:pt-2 max-lg:pt-5 lg:w-[990px] lg:h-[400px] h-auto max-[390px]:h-[850px] max-[240px]:h-[890px] w-[570px] max-lg:min-h-[750px] max-w-[98vw] bg-white shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)] rounded-2xl flex max-lg:flex-col-reverse justify-evenly items-center'>
+  
+			  {/* Text */}
+			  <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
+				<h3 className='font-bold text-center'>TRANSCENDENCE</h3>
+				<p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>A modern twist on classic Pong. Developed with Next, TypeScript, Tailwind, Nest and more by a team of 5 using Azure. Features real-time matchmaking, integrated chat, and more with an intuitive UI/UX I made.</p>
+				{/* Tech */}
+				<div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Next</div>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Typescript</div>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Zustand</div>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Nest</div>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Postgre</div>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Prisma</div>
+				  <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Socket.io</div>
+				</div>
+				{/* Code and Demo */}
+				<div className='flex min-[390px]:gap-5 max-[390px]:flex-wrap justify-center items-center p-3'>
+				  <div className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+					<a href="https://github.com/zackarydevove/transcendence" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+					  <p>Code</p>
+					  <AiFillGithub size={'1.7em'}/>
+					</a>
+				  </div>
+				  <div className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+					<a href="https://github.com/zackarydevove/transcendence" target="_blank" rel="noreferrer" className='flex justify-center items-center gap-1 hover:text-blue hover:cursor-pointer transition duration-300'>
+					  <p>Live Demo</p>
+					  <FiExternalLink size={'1.7em'}/>
+					</a>
+				  </div>
+				</div>
+			  </div>
+			  {/* Image */}
+			  <a href="https://github.com/zackarydevove/transcendence" target="_blank" rel="noreferrer"  
+				className='lg:w-[47%] lg:h-[90%] w-[530px] h-[400px] max-lg:max-w-[95vw]  bg-project4 bg-cover bg-center  shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]  rounded-2xl  flex justify-center items-center lg:hover:scale-105 transition relative'>
+
+				    <div className='absolute left-0 top-0 w-full h-full bg-black bg-opacity-20 rounded-2xl'/>
+              	<h1 className='text-white text-center text-3xl font-bold z-20'>SOON</h1>
+			  </a>
+			</div>
+		  </div>
+
         {/* Project 1 */}
         <div className='p-3'>
           {/* Row */}
@@ -156,10 +205,11 @@ function App() {
             {/* Text */}
             <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center  gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>ZACKTECH</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>An E-commerce web app built with React, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>An E-commerce web app built with React, Typescript, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments.</p>
               {/* Tech */}
               <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Typescript</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
@@ -188,10 +238,11 @@ function App() {
             {/* Text */}
             <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>FULLSTACK TWITTER CLONE</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Twitter clone built with React, Tailwind, Node, Express, MongoDB and Socket.io. User can create, reply, share and like posts. Connect with friends through instant messaging chat using Socket.io.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Twitter clone built with React, Typescript, Tailwind, Node, Express, MongoDB and Socket.io. User can create, reply, share and like posts. Connect with friends through instant messaging chat using Socket.io.</p>
               {/* Tech */}
               <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
+                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Typescript</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>

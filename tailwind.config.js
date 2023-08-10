@@ -12,6 +12,7 @@ module.exports = {
         'project1': 'url("./images/project1.png")',
         'project2': 'url("./images/project2.png")',
         'project3': 'url("./images/project3.png")',
+        'project4': 'url("./images/project4.png")',
       }
     },
     colors: {
