@@ -12,7 +12,11 @@ You can try the demo <a href="https://ecom-app-tan.vercel.app/">here</a>
 A full stack web application that mimics the core functionality of Twitter. This project highlights my skills in building real-time, social media applications using the MERN stack, complete with user authentication, tweet creation, retweeting, liking, a feed of tweets and instant messaging using socket.io.
 You can try the demo <a href="https://social-media-app-ruby.vercel.app/home">here</a>
 
-<h2> 3. Reservation App </h2>
+<h2> 3. Transcendence </h2>
+A modern twist on classic Pong. Developed with Next, TypeScript, Tailwind, Nest and more by a team of 5 using Azure. Features real-time matchmaking, integrated chat, and more with an intuitive UI/UX I made.
+Demo coming soon
+
+<h2> 4. Reservation App </h2>
 Coming soon.
 
 <h1> Skills </h1>
