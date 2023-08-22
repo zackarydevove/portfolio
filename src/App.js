@@ -205,11 +205,10 @@ function App() {
             {/* Text */}
             <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center  gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>ZACKTECH</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>An E-commerce web app built with React, Typescript, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>An E-commerce web app built with React, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments.</p>
               {/* Tech */}
               <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Typescript</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
@@ -238,11 +237,10 @@ function App() {
             {/* Text */}
             <div className='max-lg:pt-5 lg:w-[47%] lg:h-[90%] max-w-[90%] w-[300px] h-auto flex flex-col justify-around items-center gap-5 lg:gap-2'>
               <h3 className='font-bold text-center'>FULLSTACK TWITTER CLONE</h3>
-              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Twitter clone built with React, Typescript, Tailwind, Node, Express, MongoDB and Socket.io. User can create, reply, share and like posts. Connect with friends through instant messaging chat using Socket.io.</p>
+              <p className='lg:w-[80%] w-[530px] max-w-[90vw] text-center text-lg'>Twitter clone built with React, Tailwind, Node, Express, MongoDB and Socket.io. User can create, reply, share and like posts. Connect with friends through instant messaging chat using Socket.io.</p>
               {/* Tech */}
               <div className='flex gap-5 max-[390px]:mb-3 max-[390px]:max-w-[95vw] max-[390px]:flex-wrap lg:w-96 flex-wrap justify-center items-center'>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>React</div>
-                <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Typescript</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Tailwind</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Node</div>
                 <div className='w-20 h-10 flex justify-center items-center shadow-[0px_0px_10px_0px_rgba(0,0,0,0.3)]'>Express</div>
