@@ -14,7 +14,7 @@ You can try the demo <a href="https://social-media-app-ruby.vercel.app/home">her
 
 <h2> 3. Transcendence </h2>
 A modern twist on classic Pong. Developed with Next, TypeScript, Tailwind, Nest and more by a team of 5 using Azure. Features real-time matchmaking, integrated chat, and more with an intuitive UI/UX I made.
-Demo coming soon
+Demo coming soon.
 
 <h2> 4. Reservation App </h2>
 Coming soon.
