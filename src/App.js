@@ -16,8 +16,8 @@ function App() {
           {/* Text */}
           <div className='max-sm:px-10 sm:w-auto flex max-w-screen max-lg:flex-col-reverse justify-center items-center gap-16'>
             <div className='flex flex-col gap-6 justify-center max-lg:items-center'>
-              <h1 className='text-4xl sm:text-7xl sm:w-[490px] text-dark_grey font-h1 font-bold max-lg:text-center'>Fullstack Web Developer</h1>
-              <p className='text-lg sm:text-xl text-light_grey sm:w-[25rem] max-lg:text-center'>Hi, I'm DEVOVE Zackary. A passionate Fullstack Web Developer based in Paris 📍</p>
+              <h1 className='text-4xl sm:text-7xl sm:w-[490px] text-dark_grey font-h1 font-bold max-lg:text-center'>Fullstack Developer</h1>
+              <p className='text-lg sm:text-xl text-light_grey sm:w-[25rem] max-lg:text-center'>Hi, I'm Zackary Devove. A passionate Fullstack Developer based in Paris 📍</p>
               <div className='flex gap-2'> 
                   <a rel="noreferrer" href={new URL('http://linkedin.com/in/zackarydevove/')} target='_blank'>
                     <AiFillLinkedin size='2.3em' className='hover:cursor-pointer hover:text-blue transition duration-300' /> 
@@ -49,9 +49,9 @@ function App() {
 
         <div className='sm:w-[650px] sm:h-96 lg:pr-5 flex flex-col items-start justify-between max-lg:items-center max-lg:justify-center gap-5'>
           <h1 className='text-blue font-bold'>ABOUT ME</h1>
-          <h2 className='text-2xl font-bold font-h1 max-lg:text-center'>A Passionate Fullstack Web Developer, based in Paris</h2>
+          <h2 className='text-2xl font-bold font-h1 max-lg:text-center'>A Passionate Fullstack Developer, based in Paris</h2>
           <div>
-            <p className='text-xl w-full font-h1 text-justify text-light_grey max-lg:text-center'>Hey there! I'm Zackary DEVOVE, a 21-year-old Fullstack Web Developer rooted right in the heart of Paris. I'm proficient in the skills listed below and am currently a student at School 42 Paris. With a Bachelor's degree in Economics and Management under my belt, and a transformative stint at Seoul National University, I'm comfortably bilingual in French and English. Beyond the code, I'm deeply immersed in the ever-evolving world of crypto and DeFi. Otherwise, you’ll probably find me at the gym or on an MMA ring. My drive? Crafting a vision into an elegant and scalable digital solution. Ready to collaborate?</p>
+            <p className='text-xl w-full font-h1 text-justify text-light_grey max-lg:text-center'>Hey there! I'm Zackary DEVOVE, a 21-year-old Fullstack Developer rooted right in the heart of Paris. I'm proficient in the skills listed below and am currently a student at School 42 Paris. With a Bachelor's degree in Economics and Management under my belt, and a transformative stint at Seoul National University, I'm comfortably bilingual in French and English. Beyond the code, I'm deeply immersed in the ever-evolving world of crypto and DeFi. Otherwise, you’ll probably find me at the gym or on an MMA ring. My drive? Crafting a vision into an elegant and scalable digital solution. Ready to collaborate?</p>
           </div>
         </div>
       </div>
