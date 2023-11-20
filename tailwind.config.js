@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -9,10 +10,12 @@ module.exports = {
         'profile': 'url("./images/profile.jpg")',
         'desk': 'url("./images/desk.png")',
         'emoji': 'url("./images/emoji.png")',
-        'project1': 'url("./images/project1.png")',
-        'project2': 'url("./images/project2.png")',
-        'project3': 'url("./images/project3.png")',
-        'project4': 'url("./images/project4.png")',
+        'zacktech': 'url("./images/project1.png")',
+        'twitter-clone': 'url("./images/project2.png")',
+        'transcendence': 'url("./images/project4.png")',
+        'soliswap': 'url("./images/soliswap.png")',
+        'javamedia': 'url("./images/javamedia.png")',
+        'transcendence': 'url("./images/transcendence.png")',
       }
     },
     colors: {
