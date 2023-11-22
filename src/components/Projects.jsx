@@ -55,15 +55,15 @@ function Projects() {
 					img="bg-soliswap"
 				/>
 
-				{/* Javamedia
-				<ProjectLeftComponent 
+				{/* Javamedia */}
+				<ProjectRightComponent 
 					title="JAVAMEDIA"
 					content="Fullstack social media app built with Angular, TypeScript, Java, Spring Boot, and PostgreSQL. Features JWT authentication, real-time posts and chat, and more. Rigorously tested with JUnit and Jasmine."
 					githubLink="https://github.com/zackarydevove/javamedia"
 					demoLink=""
 					tech={['Angular', 'Typescript', 'Java', 'Spring', 'Postgre', 'JUnit', 'Jasmine']}
 					img="bg-javamedia"
-				/> */}
+				/>
 
 			</div>
 			
