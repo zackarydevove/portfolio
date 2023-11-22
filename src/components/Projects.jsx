@@ -15,36 +15,25 @@ function Projects() {
 			{/* Projects */}
 			<div className='flex flex-col items-center gap-10'>
 
-			{/* Soliswap */}
-			<ProjectLeftComponent 
-				title="SOLISWAP"
-				content="Soliswap is a Decentralized Exchange inspired by Uniswap, developed to deepen my understanding of the web3 stack. Deployed on the Ethereum testnet, it enables users to swap cryptocurrencies, manage liquidity pools, and engage in staking and farming with their LPs."
-				githubLink="https://github.com/zackarydevove/soliswap"
-				demoLink=""
-				tech={['React', 'Typescript', 'Node', 'Express', 'Postgre', 'Solidity', 'Hardhat', 'ether.js']} 
-				img="bg-soliswap"
-			/>
+				{/* Transcendence */}
+					<ProjectRightComponent 
+						title="TRANSCENDENCE"
+						content="Modern twist of Pong with the tech stack below by a team of 5 using Azure Devops and AGILE/SCRUM for team management. Features real-time matchmaking, integrated chat, and more with an intuitive UI/UX I made."
+						githubLink="https://github.com/zackarydevove/transcendence"
+						demoLink=""
+						tech={['Next', 'Typescript', 'Tailwind', 'Zustand', 'Nest', 'Postgre', 'Prisma', 'Socket.io']}
+						img="bg-transcendence"
+					/>
 
-			{/* Transcendence */}
-				<ProjectRightComponent 
-					title="TRANSCENDENCE"
-					content="Modern twist of Pong with the tech stack below by a team of 5 using Azure Devops and AGILE/SCRUM for team management. Features real-time matchmaking, integrated chat, and more with an intuitive UI/UX I made."
-					githubLink="https://github.com/zackarydevove/transcendence"
-					demoLink=""
-					tech={['Next', 'Typescript', 'Tailwind', 'Zustand', 'Nest', 'Postgre', 'Prisma', 'Socket.io']}
-					img="bg-transcendence"
-				/>
-
-				{/* Zacktech */}
-				<ProjectLeftComponent 
-					title="ZACKTECH"
-					content="An E-commerce web app built with React, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments."
-					githubLink="https://github.com/zackarydevove/zacktech"
-					demoLink="https://ecom-app-tan.vercel.app/"
-					tech={['React', 'Tailwind', 'Node', 'Express', 'MongoDB']}
-					img="bg-zacktech"
-				/>
-
+					{/* Zacktech */}
+					<ProjectLeftComponent 
+						title="ZACKTECH"
+						content="An E-commerce web app built with React, Tailwind, Node, Express and MongoDB. Users can easily create an account, browse the shop and securely make purchases through Stripe payments."
+						githubLink="https://github.com/zackarydevove/zacktech"
+						demoLink="https://ecom-app-tan.vercel.app/"
+						tech={['React', 'Tailwind', 'Node', 'Express', 'MongoDB']}
+						img="bg-zacktech"
+					/>
 
 				{/* Twitter clone */}
 				<ProjectRightComponent 
@@ -56,7 +45,17 @@ function Projects() {
 					img="bg-twitter-clone"
 				/>
 
-				{/* Javamedia */}
+				{/* Soliswap */}
+				<ProjectLeftComponent 
+					title="SOLISWAP"
+					content="Soliswap is a Decentralized Exchange inspired by Uniswap, developed to deepen my understanding of the web3 stack. Deployed on the Ethereum testnet, it enables users to swap cryptocurrencies, manage liquidity pools, and engage in staking and farming with their LPs."
+					githubLink="https://github.com/zackarydevove/soliswap"
+					demoLink=""
+					tech={['React', 'Typescript', 'Node', 'Express', 'Postgre', 'Solidity', 'Hardhat', 'ether.js']} 
+					img="bg-soliswap"
+				/>
+
+				{/* Javamedia
 				<ProjectLeftComponent 
 					title="JAVAMEDIA"
 					content="Fullstack social media app built with Angular, TypeScript, Java, Spring Boot, and PostgreSQL. Features JWT authentication, real-time posts and chat, and more. Rigorously tested with JUnit and Jasmine."
@@ -64,7 +63,7 @@ function Projects() {
 					demoLink=""
 					tech={['Angular', 'Typescript', 'Java', 'Spring', 'Postgre', 'JUnit', 'Jasmine']}
 					img="bg-javamedia"
-				/>
+				/> */}
 
 			</div>
 			
