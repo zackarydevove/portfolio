@@ -1,6 +1,6 @@
 <h1>Zackary Devove's Portfolio</h1>
 
-Welcome to my portfolio repository! You can visit the live site <a href="https://www.zackarydevove.com/">here</a>.
+Welcome to my portfolio repository! You can visit the live site <a href="https://www.zackarydevove.com/">here</a>
 
 This portfolio showcase my skills, projects, and contact information.
 
